@@ -9,10 +9,13 @@ module.exports = {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    fontFamily: {
-      sans: ["Helvetica Neue", "Helvetica", "Arial", "sans-serif"],
-    },
-    extend: {},
+extend: {
+      backgroundImage: {
+        'hero': "url('/hero.png')",
+        fontFamily: {
+          sans: ["Helvetica Neue", "Helvetica", "Arial", "sans-serif"],
+        },
+      }}
   },
   plugins: [],
 };

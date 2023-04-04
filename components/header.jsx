@@ -25,53 +25,6 @@ export default function Example() {
       {({ open }) => (
         <>
           <div className="mx-auto  px-2 sm:px-6 lg:px-8 max-w-[1150px]">
-            <div className="flex justify-between">
-              <div className="flex justify-between w-[17%]">
-                <BiEnvelope />
-                <a href="" className="text-[1.1rem]">
-                  infoyour@gmail.com
-                </a>
-              </div>
-              <div className="flex justify-between w-[17%]">
-                <BiEnvelope />
-                <a href="" className="text-[1.1rem]">
-                  infoyour@gmail.com
-                </a>
-              </div>
-              <div className="flex justify-between w-[17%]">
-                <BiEnvelope />
-                <a href="" className="text-[1.1rem]">
-                  infoyour@gmail.com
-                </a>
-              </div>
-
-              <div className="mt-6 lg:mb-0 mb-6">
-                <button
-                  className="bg-white text-blue-600 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
-                  type="button"
-                >
-                  <i className="fab fa-twitter"></i>
-                </button>
-                <button
-                  className="bg-white text-blue-600 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
-                  type="button"
-                >
-                  <i className="fab fa-facebook-square"></i>
-                </button>
-                <button
-                  className="bg-white text-blue-600 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
-                  type="button"
-                >
-                  <i className="fab fa-dribbble"></i>
-                </button>
-                <button
-                  className="bg-white text-blue-600 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
-                  type="button"
-                >
-                  <i className="fab fa-github"></i>
-                </button>
-              </div>
-            </div>
             <div className="relative flex h-16 items-center pt-8">
               <div className="absolute inset-y-0 left-0 flex pl-96 pt-8 items-center sm:hidden">
                 {/* Mobile menu button*/}
@@ -99,7 +52,7 @@ export default function Example() {
                   alt="Your Company"
                 />
               </div>
-              <div className="hidden sm:ml-6  sm:block  ">
+              <div className="hidden sm:ml-6  sm:block mt-2 ">
                 <div className="flex space-x-6">
                   <Menu as="div" className="relative inline-block text-left">
                     <div>
@@ -588,7 +541,7 @@ export default function Example() {
                   </a>
                 </div>
               </div>
-              <div className="absolute inset-y-0 right-0 w-[40%] flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0 hidden lg:block">
+              <div className="absolute inset-y-0 right-0 w-[40%] flex items-center pr-2 sm:static mt-2 sm:inset-auto sm:ml-6 sm:pr-0 hidden lg:block">
                 <button className="bg-blue-600 rounded-full py-4  text-white px-8 text-[1.1rem]">
                   Start a Project
                 </button>
