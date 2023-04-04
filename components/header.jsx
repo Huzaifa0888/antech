@@ -1,5 +1,5 @@
 
-import { BiMinus } from "react-icons/bi";
+import { BiMinus, BiCaretDown, BiEnvelope, BiCaretUp } from "react-icons/bi";
 import { BsPlusLg } from "react-icons/bs";
 
 import { Fragment,useState } from "react";
@@ -25,13 +25,63 @@ export default function Example() {
       {({ open }) => (
         <>
           <div className="mx-auto  px-2 sm:px-6 lg:px-8 max-w-[1150px]">
+            <div className="flex justify-between">
+              <div className="flex justify-between w-[17%]">
+                <BiEnvelope />
+                <a href="" className="text-[1.1rem]">
+                  infoyour@gmail.com
+                </a>
+              </div>
+              <div className="flex justify-between w-[17%]">
+                <BiEnvelope />
+                <a href="" className="text-[1.1rem]">
+                  infoyour@gmail.com
+                </a>
+              </div>
+              <div className="flex justify-between w-[17%]">
+                <BiEnvelope />
+                <a href="" className="text-[1.1rem]">
+                  infoyour@gmail.com
+                </a>
+              </div>
+
+              <div className="mt-6 lg:mb-0 mb-6">
+                <button
+                  className="bg-white text-blue-600 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
+                  type="button"
+                >
+                  <i className="fab fa-twitter"></i>
+                </button>
+                <button
+                  className="bg-white text-blue-600 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
+                  type="button"
+                >
+                  <i className="fab fa-facebook-square"></i>
+                </button>
+                <button
+                  className="bg-white text-blue-600 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
+                  type="button"
+                >
+                  <i className="fab fa-dribbble"></i>
+                </button>
+                <button
+                  className="bg-white text-blue-600 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
+                  type="button"
+                >
+                  <i className="fab fa-github"></i>
+                </button>
+              </div>
+            </div>
             <div className="relative flex h-16 items-center pt-8">
               <div className="absolute inset-y-0 left-0 flex pl-96 pt-8 items-center sm:hidden">
                 {/* Mobile menu button*/}
-                <Disclosure.Button className="inline-flex items-center rounded-md p-2 text-gray-400 hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white">
+                <Disclosure.Button className="inline-flex bg-sky-500 items-center rounded-md p-2 text-white hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white">
                   <span className="sr-only">Open main menu</span>
                   {open ? (
-                    <XMarkIcon className="block h-6 w-6" aria-hidden="true" />
+                    <XMarkIcon
+                      className="block h-6 w-6 text-white"
+                      aria-hidden="true"
+                    />
                   ) : (
                     <Bars3Icon className="block h-6 w-6" aria-hidden="true" />
                   )}
@@ -666,9 +716,13 @@ export default function Example() {
                       {({ open }) => (
                         <>
                           <div>
-                            <Disclosure.Button className="flex w-full justify-between rounded-lg  px-4 py-3 mb-0 pb-2 text-left font-medium text-black ">
-                              <span>BLOG</span>
-                              {open ? <BiMinus /> : <BsPlusLg />}
+                            <Disclosure.Button className="flex w-full  rounded-lg  px-4 py-3 mb-0 pb-2 text-left font-medium text-black ">
+                              <span>Home</span>
+                              {open ? (
+                                <BiCaretUp className="ml-1 mt-2" />
+                              ) : (
+                                <BiCaretDown className="ml-1 mt-2" />
+                              )}
                             </Disclosure.Button>
                             <Disclosure.Panel className="text-gray-500  w-full  rounded-lg px-4 mb-2 text-left text-sm font-medium">
                               <div className="pl-2">
@@ -694,9 +748,35 @@ export default function Example() {
                       {({ open }) => (
                         <>
                           <div>
-                            <Disclosure.Button className="flex w-full justify-between rounded-lg  px-4 py-3 mb-0 pb-2 text-left font-medium text-black ">
-                              <span>PAGES</span>
-                              {open ? <BiMinus /> : <BsPlusLg />}
+                            <Disclosure.Button className="flex w-full  rounded-lg  px-4 py-3 mb-0 pb-2 text-left font-medium text-black ">
+                              <span>About</span>
+                            </Disclosure.Button>
+                          </div>
+                        </>
+                      )}
+                    </Disclosure>
+                    <Disclosure>
+                      {({ open }) => (
+                        <>
+                          <div>
+                            <Disclosure.Button className="flex w-full  rounded-lg  px-4 py-3 mb-0 pb-2 text-left font-medium text-black ">
+                              <span>Services</span>
+                            </Disclosure.Button>
+                          </div>
+                        </>
+                      )}
+                    </Disclosure>
+                    <Disclosure>
+                      {({ open }) => (
+                        <>
+                          <div>
+                            <Disclosure.Button className="flex w-full  rounded-lg  px-4 py-3 mb-0 pb-2 text-left font-medium text-black ">
+                              <span>Pages</span>
+                              {open ? (
+                                <BiCaretUp className="ml-1 mt-2" />
+                              ) : (
+                                <BiCaretDown className="ml-1 mt-2" />
+                              )}
                             </Disclosure.Button>
                             <Disclosure.Panel className="text-gray-500  w-full  rounded-lg px-4 mb-2 text-left text-sm font-medium">
                               <div className="pl-2">
@@ -714,6 +794,60 @@ export default function Example() {
                                 </p>
                               </div>
                             </Disclosure.Panel>
+                          </div>
+                        </>
+                      )}
+                    </Disclosure>
+                    <Disclosure>
+                      {({ open }) => (
+                        <>
+                          <div>
+                            <Disclosure.Button className="flex w-full  rounded-lg  px-4 py-3 mb-0 pb-2 text-left font-medium text-black ">
+                              <span>Portfolio</span>
+                            </Disclosure.Button>
+                          </div>
+                        </>
+                      )}
+                    </Disclosure>
+                    <Disclosure>
+                      {({ open }) => (
+                        <>
+                          <div>
+                            <Disclosure.Button className="flex w-full  rounded-lg  px-4 py-3 mb-0 pb-2 text-left font-medium text-black ">
+                              <span>Blog</span>
+                              {open ? (
+                                <BiCaretUp className="ml-1 mt-2" />
+                              ) : (
+                                <BiCaretDown className="ml-1 mt-2" />
+                              )}
+                            </Disclosure.Button>
+                            <Disclosure.Panel className="text-gray-500  w-full  rounded-lg px-4 mb-2 text-left text-sm font-medium">
+                              <div className="pl-2">
+                                <p className="font-bold text-gray-900 text-lg py-1">
+                                  Edit
+                                </p>
+                                <p className="font-bold text-gray-900 text-lg py-1">
+                                  Edit
+                                </p>
+                                <p className="font-bold text-gray-900 text-lg py-1">
+                                  Edit
+                                </p>
+                                <p className="font-bold text-gray-900 text-lg py-1">
+                                  Edit
+                                </p>
+                              </div>
+                            </Disclosure.Panel>
+                          </div>
+                        </>
+                      )}
+                    </Disclosure>
+                    <Disclosure>
+                      {({ open }) => (
+                        <>
+                          <div>
+                            <Disclosure.Button className="flex w-full  rounded-lg  px-4 py-3 mb-0 pb-2 text-left font-medium text-black ">
+                              <span>Contact</span>
+                            </Disclosure.Button>
                           </div>
                         </>
                       )}
