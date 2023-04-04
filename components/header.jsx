@@ -1,21 +1,25 @@
-import { Fragment } from "react";
+
+import { BiMinus } from "react-icons/bi";
+import { BsPlusLg } from "react-icons/bs";
+
+import { Fragment,useState } from "react";
 import { Disclosure, Menu, Transition } from "@headlessui/react";
 import { Bars3Icon, BellIcon, XMarkIcon } from "@heroicons/react/24/outline";
 
 const navigation = [
   { name: "About", href: "#", current: true },
   { name: "Service", href: "#", current: false },
-];  
+];
 
 function classNames(...classes) {
   return classes.filter(Boolean).join(" ");
 }
 
-
 export default function Example() {
-    const handleMobileDialog = () => {
-      setOpen(true);
-    };
+  const [open, setOpen] = useState(false)
+  const handleMobileDialog = () => {
+    setOpen(true);
+  };
   return (
     <Disclosure as="nav" className="bg-white">
       {({ open }) => (
@@ -658,15 +662,13 @@ export default function Example() {
                   </div> */}
                 <div className="w-full h-fit px-4  ">
                   <div className="mx-auto w-screen  max-w-md  bg-white p-2 text-lg">
-                
-                   
                     <Disclosure>
                       {({ open }) => (
                         <>
                           <div>
                             <Disclosure.Button className="flex w-full justify-between rounded-lg  px-4 py-3 mb-0 pb-2 text-left font-medium text-black ">
                               <span>BLOG</span>
-                              {open ? <Arrow /> : <BsPlusLg />}
+                              {open ? <BiMinus /> : <BsPlusLg />}
                             </Disclosure.Button>
                             <Disclosure.Panel className="text-gray-500  w-full  rounded-lg px-4 mb-2 text-left text-sm font-medium">
                               <div className="pl-2">
