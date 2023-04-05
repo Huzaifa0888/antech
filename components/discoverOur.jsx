@@ -20,7 +20,7 @@ function DiscoverOur() {
                   but the majority have suffered alteration in some form, by
                   inject humour, or randomised words which
                 </p>
-                <div className="mt-8 space-y-8 sm:space-x-12 sm:mt-12 sm:flex sm:items-start sm:justify-center lg:justify-start ju sm:space-y-0 md:space-x-20 lg:mt-20">
+                <div className="mt-8 space-y-8 sm:space-x-12 sm:mt-12 sm:flex sm:items-start sm:justify-center lg:justify-start ju sm:space-y-0 md:space-x-20 lg:mt-10">
                   <div className="flex items-start ">
                     <img src="/icon.png" alt="" />
                     <div className="ml-4">
