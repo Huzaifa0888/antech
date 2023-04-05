@@ -9,13 +9,15 @@ module.exports = {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-extend: {
+    extend: {
       backgroundImage: {
-        'hero': "url('/hero.png')",
-        fontFamily: {
-          sans: ["Helvetica Neue", "Helvetica", "Arial", "sans-serif"],
-        },
-      }}
+        hero: "url('/hero.png')",
+        sec: "url('/download.png')",
+      },
+      fontFamily: {
+        sans: ["Helvetica Neue", "Helvetica", "Arial", "sans-serif"],
+      },
+    },
   },
   plugins: [],
 };

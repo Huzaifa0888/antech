@@ -3,19 +3,16 @@ import React from 'react'
 function HeroSection() {
   return (
     <>
-      <div className="bg-hero h-screen w-screen mt-12">
-        <section className="py-10 sm:py-16 lg:py-24">
+      <div className="bg-hero h-screen w-screen mt-12 pb-16">
+        <section className="py-10 sm:py-16 lg:py-24 ">
           <div className="px-4 mx-auto max-w-[1150px] sm:px-6 lg:px-8">
             <div className="grid items-center grid-cols-1 gap-12 lg:grid-cols-2">
               <div>
-                <h1 className="text-4xl font-bold text-black sm:text-6xl lg:text-7xl">
-                  Collaborate remotely, with
-                  <div className="relative inline-flex">
-                    <span className="absolute inset-x-0 bottom-0 border-b-[30px] border-[#4ADE80]"></span>
-                    <h1 className="relative text-4xl font-bold text-black sm:text-6xl lg:text-7xl">
-                      Postcrafts.
-                    </h1>
-                  </div>
+                <h1 className="text-4xl font-normal text-blue-400 sm:text-6xl pb-5 lg:text-[40px]">
+                  IT services Agency
+                </h1>
+                <h1 className="text-4xl font-bold text-black sm:text-6xl lg:text-[60px]">
+                  Awesome IT Services for Your Business
                 </h1>
 
                 <p className="mt-8 text-base text-black sm:text-xl">
@@ -35,15 +32,15 @@ function HeroSection() {
                     className="inline-flex items-center mt-6 text-base font-semibold transition-all duration-200 sm:mt-0 hover:opacity-80"
                   >
                     <svg
-                      className="w-10 h-10 mr-3"
+                      className="w-14 h-14 mr-3"
                       xmlns="http://www.w3.org/2000/svg"
                       fill="none"
                       viewBox="0 0 24 24"
                       stroke="currentColor"
                     >
                       <path
-                        fill="#F97316"
-                        stroke="#F97316"
+                        fill="#42A5F5"
+                        stroke="#42A5F5"
                         stroke-linecap="round"
                         stroke-linejoin="round"
                         stroke-width="2"
@@ -56,7 +53,6 @@ function HeroSection() {
                         d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
                       />
                     </svg>
-                    Watch video
                   </a>
                 </div>
               </div>
