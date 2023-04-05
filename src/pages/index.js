@@ -1,23 +1,24 @@
-import { Inter } from 'next/font/google'
-import Header from '../../components/header'
-import HeroSection from '../../components/heroSection'; 
-import OurWork from "../../components/ourWork"; 
-import DiscoverOur from "../../components/discoverOur"; 
-import P from '../../components/p';
-import OurSkill from '../../components/ourSkill';
+import { Inter } from "next/font/google";
+import Header from "../../components/header";
+import HeroSection from "../../components/heroSection";
+import OurWork from "../../components/ourWork";
+import DiscoverOur from "../../components/discoverOur";
+import P from "../../components/p";
+import OurSkill from "../../components/ourSkill";
+import TechnologySolution from "../../components/technologySolution";
 
-const inter = Inter({ subsets: ['latin'] })
+const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
   return (
     <>
       <section className="font-sans">
-
-      <Header></Header>
-      <HeroSection></HeroSection>
-      <OurWork></OurWork>
-      <DiscoverOur></DiscoverOur>
-<OurSkill></OurSkill>
+        <Header></Header>
+        <HeroSection></HeroSection>
+        <OurWork></OurWork>
+        <DiscoverOur></DiscoverOur>
+        <OurSkill></OurSkill>
+        <TechnologySolution></TechnologySolution>
       </section>
     </>
   );

@@ -29,10 +29,10 @@ function HeroSection() {
                   <a
                     href="#"
                     title=""
-                    className="inline-flex items-center mt-6 text-base font-semibold transition-all duration-200 sm:mt-0 hover:opacity-80"
+                    className=" items-center mt-6 text-base font-semibold transition-all duration-200 sm:mt-0 hover:opacity-80 hidden lg:block"
                   >
                     <svg
-                      className="w-14 h-14 mr-3"
+                      className="w-14 h-14 mr-3 "
                       xmlns="http://www.w3.org/2000/svg"
                       fill="none"
                       viewBox="0 0 24 24"
