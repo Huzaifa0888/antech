@@ -13,6 +13,7 @@ module.exports = {
       backgroundImage: {
         hero: "url('/hero.png')",
         sec: "url('/download.png')",
+        test: "url('/bg-test.png')",
       },
       fontFamily: {
         sans: ["Helvetica Neue", "Helvetica", "Arial", "sans-serif"],

@@ -28,15 +28,15 @@ export default function Example() {
             <div className="relative flex h-16 items-center pt-8">
               <div className="absolute inset-y-0 left-0 flex pl-96 pt-8 items-center sm:hidden">
                 {/* Mobile menu button*/}
-                <Disclosure.Button className="inline-flex bg-sky-500 items-center rounded-md p-2 text-white hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white">
+                <Disclosure.Button className="mx-auto inline-flex px-0.5 bg-sky-500 items-center rounded-md  text-white hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white mr-2">
                   <span className="sr-only">Open main menu</span>
                   {open ? (
                     <XMarkIcon
-                      className="block h-6 w-6 text-white"
+                      className="block h-6 w-6 text-white "
                       aria-hidden="true"
                     />
                   ) : (
-                    <Bars3Icon className="block h-6 w-6" aria-hidden="true" />
+                    <Bars3Icon className="block h-8 w-6" aria-hidden="true" />
                   )}
                 </Disclosure.Button>
               </div>

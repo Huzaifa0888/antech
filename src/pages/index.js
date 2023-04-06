@@ -6,8 +6,10 @@ import DiscoverOur from "../../components/discoverOur";
 import P from "../../components/p";
 import OurSkill from "../../components/ourSkill";
 import TechnologySolution from "../../components/technologySolution";
-
-const inter = Inter({ subsets: ["latin"] });
+import NoName from "../../components/noName";
+import Testimonials from "../../components/testimonials";
+import OurLatest from "../../components/ourLatest";
+import Footer from "../../components/footer";
 
 export default function Home() {
   return (
@@ -19,6 +21,13 @@ export default function Home() {
         <DiscoverOur></DiscoverOur>
         <OurSkill></OurSkill>
         <TechnologySolution></TechnologySolution>
+      <NoName></NoName>
+      <Testimonials></Testimonials>
+      <OurLatest></OurLatest>
+      <Footer></Footer>
+      {/* <P></P> */}
+
+      
       </section>
     </>
   );
