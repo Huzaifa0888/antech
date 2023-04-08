@@ -21,14 +21,14 @@ export default function Example() {
     setOpen(true);
   };
   return (
-    <Disclosure as="nav" className="bg-white">
+    <Disclosure as="nav" className="bg-white ">
       {({ open }) => (
         <>
-          <div className="mx-auto  px-2 sm:px-6 lg:px-8 max-w-[1150px]">
+          <div className="mx-auto  px-2 sm:px-6 lg:px-8 max-w-[1150px] ">
             <div className="relative flex h-16 items-center pt-8">
-              <div className="absolute inset-y-0 left-0 flex pl-96 pt-8 items-center sm:hidden">
+              <div className="absolute inset-y-0 left-0 flex  pt-8 items-center sm:hidden pl-[90%]">
                 {/* Mobile menu button*/}
-                <Disclosure.Button className="mx-auto inline-flex px-0.5 bg-sky-500 items-center rounded-md  text-white hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white mr-2">
+                <Disclosure.Button className=" inline-flex  px-0.5 bg-sky-500 items-center rounded-md  text-white hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white ">
                   <span className="sr-only">Open main menu</span>
                   {open ? (
                     <XMarkIcon
@@ -39,8 +39,8 @@ export default function Example() {
                     <Bars3Icon className="block h-8 w-6" aria-hidden="true" />
                   )}
                 </Disclosure.Button>
-              </div>
-              <div className="flex flex-shrink-0 items-center   ">
+              </div >
+              <div className="flex justify-between flex-shrink-0 items-center   ">
                 <img
                   className="block h-12 w-auto lg:hidden"
                   src="/logo.svg"

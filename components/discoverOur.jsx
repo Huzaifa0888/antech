@@ -7,8 +7,8 @@ function DiscoverOur() {
         <section className="py-10 sm:py-16 lg:py-24">
           <div className="px-4 mx-auto max-w-[1150px] sm:px-6 lg:px-8">
             <div className="grid items-center grid-cols-1 gap-12 lg:grid-cols-2">
-              <div>
-                <h1 className="text-4xl  font-normal text-blue-400 sm:text-6xl pb-5 lg:text-[30px]">
+              <div className="order-2 lg:order-1">
+                <h1 className=" text-4xl  font-normal text-blue-400 sm:text-6xl pb-5 lg:text-[30px]">
                   Discover Our Company
                 </h1>
                 <h1 className="text-4xl font-bold  text-black sm:text-6xl lg:text-[40px]">
@@ -36,7 +36,6 @@ function DiscoverOur() {
                       <h3 className="text-xl font-semibold text-black">
                         Easy Access
                       </h3>
-                    
                     </div>
                   </div>
                 </div>
@@ -47,7 +46,7 @@ function DiscoverOur() {
                 </div>
               </div>
 
-              <div>
+              <div className="order-1 lg:order-2">
                 <img className="w-full" src="/about.png" alt="" />
               </div>
             </div>

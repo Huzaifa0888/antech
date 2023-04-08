@@ -15,8 +15,8 @@ function OurWork() {
           </div>
           <section className=" ">
             <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
-              <div className="grid max-w-xl  grid-cols-1 mx-auto mt-8 text-center lg:max-w-full sm:mt-12 lg:mt-20 lg:grid-cols-3 gap-x-6 xl:gap-x-12 gap-y-6">
-                <div className="bg-sec h-[340px] w-full mr-20">
+              <div className="grid max-w-xl  grid-cols-1 mx-auto mt-8 text-center lg:max-w-full sm:mt-12 lg:mt-20 lg:grid-cols-3 gap-x-0 xl:gap-x-12 gap-y-20">
+                <div className="bg-sec h-[340px] w-full ">
                   <div className="overflow-hidden h-[280px] w-[280px] mt-8 ml-8 items-center rounded-full shadow shadow-gray-400">
                     <div className="px-10 py-20  ">
                       <p className="text-2xl text-black font-semibold pb-4">
@@ -30,7 +30,7 @@ function OurWork() {
                     </div>
                   </div>
                 </div>
-                <div className="bg-sec h-full w-full">
+                <div className="bg-sec lg:h-full lg:w-full ">
                   <div className="overflow-hidden h-[280px] w-[280px] mt-8 ml-8 items-center rounded-full shadow shadow-gray-400">
                     <div className="px-10 py-20  ">
                       <p className="text-2xl text-black font-semibold pb-4">

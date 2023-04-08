@@ -34,7 +34,7 @@ function TechnologySolution() {
             <div className="flex flex-col overflow-hidden bg-white shadow-md rounded-md">
               <div className="flex flex-col justify-center flex-1 px-6 py-8">
                 <img src="/technology.webp" alt="" className="" />
-                <div className=" w-20 rounded-full p-4 shadow-2xl shadow-gray-500 bg-slate-50 relative lg:left-[35%] left-28 bottom-10">
+                <div className=" w-20 rounded-full p-4 shadow-2xl shadow-gray-500 bg-slate-50 relative lg:left-[35%] left-[38%] bottom-10">
                   <img src="/icon.png" alt="" className="w-full" />
                 </div>
                 <h1 className="text-3xl text-center font-extralight text-gray-600 sm:text-6xl pb-5 lg:text-[30px] ">
@@ -49,7 +49,7 @@ function TechnologySolution() {
             <div className="flex flex-col overflow-hidden bg-white shadow-md rounded-md">
               <div className="flex flex-col justify-center flex-1 px-6 py-8">
                 <img src="/technology.webp" alt="" className="" />
-                <div className=" w-20 rounded-full p-4 shadow-2xl shadow-gray-500 bg-slate-50 relative lg:left-[35%] left-28 bottom-10">
+                <div className=" w-20 rounded-full p-4 shadow-2xl shadow-gray-500 bg-slate-50 relative lg:left-[35%] left-[38%] bottom-10">
                   <img src="/icon.png" alt="" className="w-full" />
                 </div>
                 <h1 className="text-3xl text-center font-extralight text-gray-600 sm:text-6xl pb-5 lg:text-[30px] ">
@@ -86,7 +86,7 @@ function TechnologySolution() {
             <h3 className="text-4xl font-semibold text-black">2547+</h3>
             <h3 className="text-md font-normal text-gray-900">Project Done</h3>
           </div>
-        </div>{" "}
+        </div>
         <div className="flex items-start ">
           <img
             src="/icon.png"
@@ -97,7 +97,7 @@ function TechnologySolution() {
             <h3 className="text-4xl font-semibold text-black">2547+</h3>
             <h3 className="text-md font-normal text-gray-900">Project Done</h3>
           </div>
-        </div>{" "}
+        </div>
         <div className="flex items-start ">
           <img
             src="/icon.png"
