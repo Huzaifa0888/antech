@@ -4,7 +4,7 @@ function Testimonials() {
   return (
     <>
       <div className="bg-test">
-        <section className="py-10 sm:py-16 lg:py-24">
+        <section className="py-10 sm:py-16 lg:pt-[110px] lg:pb-[110px]">
           <div className="px-4 mx-auto max-w-[1150px] sm:px-6 lg:px-8">
             <div className="grid items-center grid-cols-1 gap-12 lg:grid-cols-2">
               <div>
@@ -16,8 +16,6 @@ function Testimonials() {
                 </h1>
 
                 <div class="">
-                
-
                   <blockquote class="mt-6">
                     <p class="text-xl leading-relaxed text-gray-500 italic">
                       You made it so simple. My new site is so much faster and
@@ -84,9 +82,6 @@ function Testimonials() {
                     </div>
                   </div>
                 </div>
-
-
-                
               </div>
 
               <div>

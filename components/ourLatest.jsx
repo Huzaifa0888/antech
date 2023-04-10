@@ -3,7 +3,7 @@ import React from 'react'
 function OurLatest() {
   return (
     <>
-      <section className="py-10 sm:py-16 lg:py-24 bg-gray-50">
+      <section className="py-10 sm:py-16 lg:pt-[110px] lg:pb-[110px] bg-gray-50">
         <div className="px-4 mx-auto max-w-[1150px] sm:px-6 lg:px-8">
           <div className="flex items-end justify-between">
             <div className="flex-1 text-center lg:text-left">
@@ -153,8 +153,6 @@ function OurLatest() {
               </div>
             </div>
           </div>
-
-
         </div>
       </section>
     </>

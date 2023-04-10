@@ -3,7 +3,7 @@ import React from 'react'
 function TechnologySolution() {
   return (
     <>
-      <section className="py-10 sm:py-16 lg:py-24 bg-blue-600 ">
+      <section className="py-10 sm:py-16 lg:pt-[110px] lg:pb-[110px] bg-blue-600 ">
         <div className="px-4 mx-auto max-w-[1150px] sm:px-6 lg:px-8 lg:pb-20">
           <div className=" mx-auto text-center">
             <h1 className="text-4xl text-center font-normal text-white   pb-5 lg:text-[30px]">
@@ -64,7 +64,7 @@ function TechnologySolution() {
           </div>
         </div>
       </section>
-      <section className='hidden lg:block'>
+      <section className="hidden lg:block">
         <div className="relative bottom-32 mt-8 px-4 mx-auto max-w-[1150px] sm:px-6 lg:px-8 pt-20 space-y-8 h-56 shadow-md rounded-md hidden  items-center sm:space-x-12 sm:mt-12 sm:flex sm:items-start sm:justify-center lg:justify-between  sm:space-y-0 md:space-x-20 lg:mt-10 bg-white ">
           <div className="flex items-start ">
             <img

@@ -4,14 +4,14 @@ function HeroSection() {
   return (
     <>
       <div className="bg-hero h-full w-full mt-12  ">
-        <section className="py-10 sm:py-16 lg:py-24 ">
+        <section className="py-10 sm:py-16 lg:pt-[110px] lg:pb-[110px] ">
           <div className="px-4 mx-auto max-w-[1150px] sm:px-6 lg:px-8">
             <div className="grid items-center grid-cols-1 gap-12 lg:grid-cols-2">
               <div>
                 <h1 className="text-4xl font-normal text-blue-400  pb-5 lg:text-[40px]">
                   IT services Agency
                 </h1>
-                <h1 className="text-4xl font-bold text-black  lg:text-[60px]">
+                <h1 className="text-4xl font-bold text-black leading-none lg:text-[60px]">
                   Awesome IT Services for Your Business
                 </h1>
 

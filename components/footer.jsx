@@ -3,7 +3,7 @@ import React from 'react'
 function Footer() {
   return (
     <>
-      <section className="bg-black   pt-10 sm:pt-16 lg:pt-24">
+      <section className="bg-black w-full h-[550px]  pt-10 sm:pt-16 lg:pt-24">
         <div className="px-4 mx-auto max-w-[1150px] sm:px-6 lg:px-8">
           <div className="grid grid-cols-2 md:col-span-3 lg:grid-cols-6 gap-y-16 gap-x-12">
             <div className="col-span-2 md:col-span-3 lg:col-span-2 lg:pr-8">
@@ -11,7 +11,8 @@ function Footer() {
 
               <p className="text-base leading-relaxed text-white mt-7">
                 Amet minim mollit non deserunt ullamco est sit aliqua dolor do
-                amet sint. Velit officia consequat duis enim velit mollit.
+                amet sint. Velit officia consequat duis enim velit mollit. amet
+                sint. Velit officia consequat duis enim velit mollit.
               </p>
 
               <ul className="flex items-center space-x-3 mt-9">
@@ -106,6 +107,15 @@ function Footer() {
                     About
                   </a>
                 </li>
+                <li>
+                  <a
+                    href="#"
+                    title=""
+                    className="flex text-base text-white transition-all duration-200 hover:text-blue-600 focus:text-blue-600"
+                  >
+                    About
+                  </a>
+                </li>
 
                 <li>
                   <a
@@ -154,7 +164,6 @@ function Footer() {
                     Customer Support
                   </a>
                 </li>
-
                 <li>
                   <a
                     href="#"
@@ -164,7 +173,6 @@ function Footer() {
                     Delivery Details
                   </a>
                 </li>
-
                 <li>
                   <a
                     href="#"
@@ -174,7 +182,24 @@ function Footer() {
                     Terms & Conditions
                   </a>
                 </li>
-
+                <li>
+                  <a
+                    href="#"
+                    title=""
+                    className="flex text-base text-white transition-all duration-200 hover:text-blue-600 focus:text-blue-600"
+                  >
+                    Privacy Policy
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    title=""
+                    className="flex text-base text-white transition-all duration-200 hover:text-blue-600 focus:text-blue-600"
+                  >
+                    Privacy Policy
+                  </a>
+                </li>{" "}
                 <li>
                   <a
                     href="#"
@@ -216,7 +241,7 @@ function Footer() {
             </div>
           </div>
         </div>
-        <hr className="mt-16 mb-10 border-gray-200" />
+        <hr className="mt-20 pt-3 mb-10 border-gray-200" />
 
         <div className="lg:flex md:flex block justify-between px-4 mx-auto max-w-[1150px] sm:px-6 lg:px-8 pb-4">
           <p className="text-md text-center text-white">
