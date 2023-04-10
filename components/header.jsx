@@ -21,7 +21,7 @@ export default function Example() {
     setOpen(true);
   };
   return (
-    <Disclosure as="nav" className="bg-white overflow-x-hidden">
+    <Disclosure as="nav" className="bg-white md:overflow-x-hidden lg:overflow-x-visible">
       {({ open }) => (
         <>
           <div className="mx-auto  px-2 sm:px-6 lg:px-8 max-w-[1150px]  ">
