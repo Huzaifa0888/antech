@@ -6,10 +6,10 @@ function OurWork() {
       <section className="py-10 sm:py-16 lg:py-24 bg-white hidden lg:block">
         <div className="px-4 mx-auto max-w-[1150px] sm:px-6 lg:px-8">
           <div>
-            <h1 className="text-4xl text-center font-normal text-blue-400 sm:text-6xl pb-5 lg:text-[30px]">
+            <h1 className="text-4xl text-center font-normal text-blue-400   pb-5 lg:text-[30px]">
               How We Work
             </h1>
-            <h1 className="text-4xl font-bold text-center text-black sm:text-6xl lg:text-[40px]">
+            <h1 className="text-4xl font-bold text-center text-black   lg:text-[40px]">
               Our Works Process
             </h1>
           </div>

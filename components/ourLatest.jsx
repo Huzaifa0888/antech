@@ -7,10 +7,10 @@ function OurLatest() {
         <div className="px-4 mx-auto max-w-[1150px] sm:px-6 lg:px-8">
           <div className="flex items-end justify-between">
             <div className="flex-1 text-center lg:text-left">
-              <h1 className="text-4xl text-center  font-normal text-blue-400 sm:text-6xl pb-5 lg:text-[30px]">
+              <h1 className="text-4xl text-center  font-normal text-blue-400   pb-5 lg:text-[30px]">
                 Our Skill
               </h1>
-              <h1 className="text-4xl font-bold text-center  text-black sm:text-6xl lg:text-[40px]">
+              <h1 className="text-4xl font-bold text-center  text-black   lg:text-[40px]">
                 Learn More Our Blog Post
               </h1>
             </div>

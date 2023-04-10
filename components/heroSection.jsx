@@ -8,10 +8,10 @@ function HeroSection() {
           <div className="px-4 mx-auto max-w-[1150px] sm:px-6 lg:px-8">
             <div className="grid items-center grid-cols-1 gap-12 lg:grid-cols-2">
               <div>
-                <h1 className="text-4xl font-normal text-blue-400 sm:text-6xl pb-5 lg:text-[40px]">
+                <h1 className="text-4xl font-normal text-blue-400  pb-5 lg:text-[40px]">
                   IT services Agency
                 </h1>
-                <h1 className="text-4xl font-bold text-black sm:text-6xl lg:text-[60px]">
+                <h1 className="text-4xl font-bold text-black  lg:text-[60px]">
                   Awesome IT Services for Your Business
                 </h1>
 
