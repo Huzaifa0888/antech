@@ -10,10 +10,10 @@ function NoName() {
               <img className="- h-full w-[90%]" src="/portfolio3.jpg" alt="" />
             </div>
             <div className="md:px-4 lg:px-2  w-full">
-              <img className="- h-full w-[90%]" src="/portfolio3.jpg" alt="" />
+              <img className="- h-full w-[90%]" src="/portfolio.jpg" alt="" />
             </div>
             <div className="md:px-4 lg:px-2 h-full w-full">
-              <img className="- h-full w-[90%]" src="/portfolio3.jpg" alt="" />
+              <img className="- h-full w-[90%]" src="/portfolio1.jpg" alt="" />
             </div>
           </div>
         </div>
