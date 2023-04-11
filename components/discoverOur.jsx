@@ -47,7 +47,13 @@ function DiscoverOur() {
               </div>
 
               <div className="order-1 lg:order-2">
-                <img className="w-full" src="/about.png" alt="" />
+                <div className="grid grid-cols-2 gap-x-9 ">
+                  <div className="gap-y-9 grid ">
+                    <img className="w-full" src="/top.png" alt="" />
+                    <img className="w-full" src="/bottom.png" alt="" />
+                  </div>
+                  <img className="w-full self-center" src="/right.png" alt="" />
+                </div>
               </div>
             </div>
           </div>

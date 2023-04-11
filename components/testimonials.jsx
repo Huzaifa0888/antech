@@ -3,7 +3,7 @@ import React from "react";
 function Testimonials() {
   return (
     <>
-      <div className="bg-test">
+      <div className="bg-test ">
         <section className="py-10 sm:py-16 lg:pt-[110px] lg:pb-[110px]">
           <div className="px-4 mx-auto max-w-[1150px] sm:px-6 lg:px-8">
             <div className="grid items-center grid-cols-1 gap-12 lg:grid-cols-2">
@@ -84,8 +84,12 @@ function Testimonials() {
                 </div>
               </div>
 
-              <div>
-                <img className="w-full" src="/about.png" alt="" />
+              <div className="grid grid-cols-2 gap-x-9 ">
+                <div className="gap-y-9 grid ">
+                  <img className="w-full" src="/top.png" alt="" />
+                  <img className="w-full" src="/bottom.png" alt="" />
+                </div>
+                <img className="w-full self-center" src="/right.png" alt="" />
               </div>
             </div>
           </div>
