@@ -9,12 +9,18 @@ module.exports = {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
+    screens: {
+      sm: "640px",
+      md: "768px",
+      lg: "1024px",
+      xl: "1280px",
+      xxl: "1116px", // Add a custom screen size
+    },
     extend: {
       backgroundImage: {
         hero: "url('/hero.png')",
         sec: "url('/download.png')",
         test: "url('/bg-test.png')",
-        bg: "url('/bg.png')",
       },
       fontFamily: {
         sans: ["Helvetica Neue", "Helvetica", "Arial", "sans-serif"],
