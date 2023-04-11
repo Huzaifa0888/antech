@@ -9,7 +9,7 @@ function OurSkill() {
             <div className="grid items-center grid-cols-1 gap-12 lg:grid-cols-2">
               <div className="grid grid-cols-2 gap-x-9 ">
                 <div className="gap-y-9 grid ">
-                  <img className="w-full" src="/top.png" alt="" />
+                  <img className="w-full" src="/topp.png" alt="" />
                   <img className="w-full" src="/bottom.png" alt="" />
                 </div>
                 <img className="w-full self-center" src="/right.png" alt="" />
