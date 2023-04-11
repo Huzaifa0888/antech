@@ -15,12 +15,16 @@ module.exports = {
       lg: "1024px",
       xl: "1280px",
       xxl: "1116px", // Add a custom screen size
+      x: "900px", // Add a custom screen size
     },
     extend: {
       backgroundImage: {
         hero: "url('/hero.png')",
         sec: "url('/download.png')",
         test: "url('/bg-test.png')",
+        port1: "url('/portfolio.jpg')",
+        port2: "url('/portfolio1.jpg')",
+        port3: "url('/portfolio3.jpg')",
       },
       fontFamily: {
         sans: ["Helvetica Neue", "Helvetica", "Arial", "sans-serif"],

@@ -29,7 +29,7 @@ export default function Example() {
         <>
           <div className="mx-auto  px-2 sm:px-6 lg:px-8 max-w-[1150px]  ">
             <div className="relative flex h-16 items-center pt-8">
-              <div className="absolute inset-y-0 left-0 flex  pt-8 items-center  pl-[90%] xxl:hidden lg:block ">
+              <div className="absolute inset-y-0 left-0   pt-8 items-center  pl-[90%] x:hidden block ">
                 {/* Mobile menu button*/}
                 <Disclosure.Button className=" inline-flex  px-0.5 bg-sky-500 items-center rounded-md  text-white hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white ">
                   <span className="sr-only">Open main menu</span>
@@ -55,7 +55,7 @@ export default function Example() {
                   alt="Your Company"
                 />
               </div>
-              <div className="hidden sm:ml-6 xxl:block lg:hidden    mt-2 ">
+              <div className="hidden sm:ml-6 x:block lg:block    mt-2 ">
                 <div className="flex space-x-6">
                   <Menu as="div" className="relative inline-block text-left">
                     <div>
@@ -553,8 +553,8 @@ export default function Example() {
             </div>
           </div>
 
-          <Disclosure.Panel className="sm:hidden xxl:hidden lg:block max-w-640 mx-auto ">
-            <div className="flex px-4 justify-center pb-2 pt-5">
+          <Disclosure.Panel className="x:hidden  max-w-640 mx-auto ">
+            <div className="flex px-4 justify-start pb-2 pt-5">
               <button
                 type="button"
                 className="-m-2 inline-flex items-center justify-center  text-gray-400"
