@@ -14,7 +14,7 @@ import Footer from "../../components/footer";
 export default function Home() {
   return (
     <>
-      <section className="font-sans">
+      <section className="font-sans max-w-[1150px]">
         <Header></Header>
         <HeroSection></HeroSection>
         <OurWork></OurWork>

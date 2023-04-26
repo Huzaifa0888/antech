@@ -60,6 +60,16 @@ export default function Example() {
                   <Menu as="div" className="relative inline-block text-left">
                     <div>
                       <Menu.Button
+                        onMouseEnter={({ target }) => {
+                          if (target instanceof HTMLElement) {
+                            target.click();
+                          }
+                        }}
+                        onMouseLeave={({ target }) => {
+                          if (target instanceof HTMLElement) {
+                            target.click();
+                          }
+                        }}
                         className={classNames(
                           false ? "bg-gray-900 text-white" : "text-black",
                           "rounded-md  py-2 text-[1.1rem] flex font-medium"
@@ -223,6 +233,16 @@ export default function Example() {
                   <Menu as="div" className="relative inline-block text-left">
                     <div>
                       <Menu.Button
+                        onMouseEnter={({ target }) => {
+                          if (target instanceof HTMLElement) {
+                            target.click();
+                          }
+                        }}
+                        onMouseLeave={({ target }) => {
+                          if (target instanceof HTMLElement) {
+                            target.click();
+                          }
+                        }}
                         className={classNames(
                           false ? "bg-gray-900 text-white" : "text-black",
                           "rounded-md  py-2 text-[1.1rem] flex font-medium"
@@ -384,6 +404,16 @@ export default function Example() {
                   <Menu as="div" className="relative inline-block text-left">
                     <div>
                       <Menu.Button
+                        onMouseEnter={({ target }) => {
+                          if (target instanceof HTMLElement) {
+                            target.click();
+                          }
+                        }}
+                        onMouseLeave={({ target }) => {
+                          if (target instanceof HTMLElement) {
+                            target.click();
+                          }
+                        }}
                         className={classNames(
                           false ? "bg-gray-900 text-white" : "text-black",
                           "rounded-md  py-2 text-[1.1rem] flex font-medium"
