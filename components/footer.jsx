@@ -3,8 +3,8 @@ import React from 'react'
 function Footer() {
   return (
     <>
-      <section className="bg-black w-full lg:h-[550px] h-full pt-10 sm:pt-16 lg:pt-24">
-        <div className="px-4 mx-auto max-w-[1150px] sm:px-6 lg:px-8">
+      <section className="bg-black mx-auto max-w-7xl w-[1150px] lg:h-[550px] h-full pt-10 sm:pt-16 lg:pt-24">
+        <div className="px-4 mx-auto  sm:px-6 lg:px-8">
           <div className="grid grid-cols-2 md:col-span-3 lg:grid-cols-6 gap-y-16 gap-x-12">
             <div className="col-span-2 md:col-span-3 lg:col-span-2 lg:pr-8">
               <img className="w-auto h-9" src="/logo1.svg" alt="" />

@@ -4,7 +4,7 @@ function OurWork() {
   return (
     <>
       <section className="py-10 sm:py-16 lg:pt-[110px] lg:pb-[110px]4 bg-white hidden lg:block">
-        <div className="px-4 mx-auto max-w-[1150px] sm:px-6 lg:px-8">
+        <div className="px-4 mx-auto max-w-7xl w-[1150px] sm:px-6 lg:px-8">
           <div>
             <h1 className="text-4xl text-center font-normal text-blue-400   pb-5 lg:text-[30px]">
               How We Work

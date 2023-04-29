@@ -27,7 +27,7 @@ export default function Example() {
     >
       {({ open }) => (
         <>
-          <div className="mx-auto  px-2 sm:px-6 lg:px-8 max-w-[1150px]  ">
+          <div className="mx-auto  px-2 sm:px-6 lg:px-8 max-w-7xl w-[1150px]  ">
             <div className="relative flex h-16 items-center pt-8">
               <div className="absolute inset-y-0 left-0   pt-8 items-center  pl-[90%] x:hidden block ">
                 {/* Mobile menu button*/}

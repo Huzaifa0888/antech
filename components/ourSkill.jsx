@@ -5,7 +5,7 @@ function OurSkill() {
     <>
       <div className="">
         <section className="py-10 sm:py-16 lg:pt-[110px] lg:pb-[110px]">
-          <div className="px-4 mx-auto max-w-[1150px] sm:px-6 lg:px-8">
+          <div className="px-4 mx-auto max-w-7xl w-[1150px] sm:px-6 lg:px-8">
             <div className="grid items-center grid-cols-1 gap-12 lg:grid-cols-2">
               <div className="grid grid-cols-2 gap-x-9 ">
                 <div className="gap-y-9 grid ">

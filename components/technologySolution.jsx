@@ -3,8 +3,8 @@ import React from 'react'
 function TechnologySolution() {
   return (
     <>
-      <section className="py-10 sm:py-16 lg:pt-[110px] lg:pb-[110px] bg-blue-600 ">
-        <div className="px-4 mx-auto max-w-[1150px] sm:px-6 lg:px-8 lg:pb-20">
+      <section className="py-10 sm:py-16 lg:pt-[110px] lg:pb-[110px] bg-blue-600 max-w-7xl w-[1150px]">
+        <div className="px-4 mx-auto  sm:px-6 lg:px-8 lg:pb-20">
           <div className=" mx-auto text-center">
             <h1 className="text-4xl text-center font-normal text-white   pb-5 lg:text-[30px]">
               Technology solutions

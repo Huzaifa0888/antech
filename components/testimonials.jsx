@@ -5,7 +5,7 @@ function Testimonials() {
     <>
       <div className="bg-test ">
         <section className="py-10 sm:py-16 lg:pt-[110px] lg:pb-[110px]">
-          <div className="px-4 mx-auto max-w-[1150px] sm:px-6 lg:px-8">
+          <div className="px-4 mx-auto max-w-7xl w-[1150px] sm:px-6 lg:px-8">
             <div className="grid items-center grid-cols-1 gap-12 lg:grid-cols-2">
               <div>
                 <h1 className="text-4xl  font-normal text-blue-400   pb-5 lg:text-[30px]">
